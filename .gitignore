@@ -1,0 +1,18 @@
+# Arduino IDE and CLI output
+.arduino/
+build/
+build-*/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep credentials and local board configuration out of the repository
+arduino_secrets.h
+secrets.h
